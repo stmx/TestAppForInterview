@@ -43,3 +43,24 @@ class Vacancy {
 //        return id;
 //    }
 //}
+/////////////////Исходный код/////////////////
+//public static void main(String[] args) {
+//        User tester = new User(7,“Developer”); //Невозможно создать экземпляр класса так, как нет конструктора
+//        System.out.println(tester.getId());
+//        System.out.println(tester.getVacancy());
+//    }
+//class User {
+//    private long id;
+//    private Vacancy vacancy;
+//    String getVacancy() {
+//        return vacancy.getVacancy(); //получим значение указанное в методе Vacancy.getVacancy(), а не указанное в конструкторе
+//    }
+//    long getId() {
+//        return id;
+//    }
+//}
+//class Vacancy { //класс не хранит информацию о наименовании вакансии
+//    String getVacancy() {
+//        return "engineer";
+//    }
+//}
